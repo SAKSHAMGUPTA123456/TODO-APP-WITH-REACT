@@ -40,6 +40,10 @@ if(settask.includes(count)){
       }, []);
       const clearall=()=>{
          updatetask([])
+         for(let i=0;i<localStorage.length;i++){
+          let rg=localStorage.key(i);
+          localStorage.removeItem(rg)
+         }
       }
     const handledelete=(event)=>{
      let rting=document.getElementById('good')
