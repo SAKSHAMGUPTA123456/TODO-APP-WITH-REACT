@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/TODO-APP-WITH-REACT/static/css/main.30d07b60.css",
-    "main.js": "/TODO-APP-WITH-REACT/static/js/main.41b57b38.js",
-    "static/js/453.b769e3bc.chunk.js": "/TODO-APP-WITH-REACT/static/js/453.b769e3bc.chunk.js",
+    "main.js": "/TODO-APP-WITH-REACT/static/js/main.6552a3a6.js",
+    "static/js/453.69ad33dd.chunk.js": "/TODO-APP-WITH-REACT/static/js/453.69ad33dd.chunk.js",
     "static/media/logo.svg": "/TODO-APP-WITH-REACT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/TODO-APP-WITH-REACT/index.html",
     "main.30d07b60.css.map": "/TODO-APP-WITH-REACT/static/css/main.30d07b60.css.map",
-    "main.41b57b38.js.map": "/TODO-APP-WITH-REACT/static/js/main.41b57b38.js.map",
-    "453.b769e3bc.chunk.js.map": "/TODO-APP-WITH-REACT/static/js/453.b769e3bc.chunk.js.map"
+    "main.6552a3a6.js.map": "/TODO-APP-WITH-REACT/static/js/main.6552a3a6.js.map",
+    "453.69ad33dd.chunk.js.map": "/TODO-APP-WITH-REACT/static/js/453.69ad33dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30d07b60.css",
-    "static/js/main.41b57b38.js"
+    "static/js/main.6552a3a6.js"
   ]
 }
