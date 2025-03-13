@@ -40,17 +40,12 @@ if(settask.includes(count)){
       }, []);
       const clearall=()=>{
          updatetask([])
-         for(let i=0;i<localStorage.length;i++){
-          let rg=localStorage.key(i);
-          localStorage.removeItem(rg)
-         }
+        localStorage.clear()
       }
-    const handledelete=(event)=>{
-     let rting=document.getElementById('good')
-     let rting2=rting.parentElement.parentElement.firstChild
-     localStorage.removeItem(rting2.textContent)
-     console.log(rting2.textContent)
-      const item= settask.filter((curr)=>curr!==rting2.textContent)
+    const handledelete=(value)=>{
+     localStorage.removeItem(value)
+    
+      const item= settask.filter((curr)=>curr!==value)
       updatetask(item)
       
     }
